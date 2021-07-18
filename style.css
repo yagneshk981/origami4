@@ -1,0 +1,39 @@
+*{
+    background: lightblue;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-weight: 400;
+    color: blanchedalmond;
+}
+
+.origami {
+    background: orange;
+}
+
+.grid img {
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.orig {
+    border-radius: 20px;
+    background: rgb(32, 23, 23);
+    width: 310px;
+    font-family: fantasy;
+    justify-content: space-between;
+}
+
+.link {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    opacity: 0.33;
+}
+
+.link:hover {
+    opacity: 0.77;
+}
